@@ -8,22 +8,9 @@ class TestCallback(BaseCallback):
     def __init__(self, verbose=0):
         super(TestCallback, self).__init__(verbose)
 
-    def _on_training_start(self):
-        pass
-
-    def _on_rollout_start(self):
-        pass
-
     def _on_step(self):
-        
 
 
-        pass
-
-    def _on_rollout_end(self):
-        pass
-
-    def _on_training_end(self):
         pass
 
 class ProgressBarCallback(BaseCallback):
